@@ -10,7 +10,8 @@ Material:
   m_Name: DissolveMat
   m_Shader: {fileID: 4800000, guid: bf0ec77fd46ffa640bd1cb5b67a32d46, type: 3}
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _False
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -63,7 +64,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
-    - _BurnAmount: 0.374
+    - _BurnAmount: 0
+    - _BurnChangeTime: 1
+    - _BurnChangeWaitTime: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -78,6 +81,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _TimeVarying: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
